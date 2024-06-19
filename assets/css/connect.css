@@ -1,8 +1,10 @@
 
 #body{
     display: flex;
-    row-gap: 3rem;
-    margin-top: 5rem;   
+    flex-direction: column;
+    row-gap: 5rem;
+    height: 100vh;
+    justify-content: center;
 }
 #header{
     display: flex;
@@ -38,7 +40,6 @@
 .form{
     display: flex;
     justify-content: center;
-    width: 100vw;
 }
 
 .field{
